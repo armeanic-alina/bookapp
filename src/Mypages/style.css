@@ -1,0 +1,39 @@
+.headerDescription{
+    padding: 20px;
+}
+
+.bookItem {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bookImage {
+    padding: 20px
+}
+img {
+    width: 250px;
+}
+.bookTitle {
+    font-weight: bold;
+    font-size: 22px;
+}
+.bookDescription {
+    font-size: 16px;
+    font-style: italic;
+}
+.bookContent {
+    width: 350px;
+    padding: 20px;
+}
+.bookAuthor {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+}
+.bookList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
