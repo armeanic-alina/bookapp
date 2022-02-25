@@ -1,20 +1,78 @@
-import React, { useEffect } from 'react';
-import './style.css';
+import React, { useEffect } from "react";
+import "./style.css";
 
 const MyBooks = () => {
-    useEffect(() => {
-        document.title = 'My Books';
-    });
-    return (
-        <div className="bookItem"> 
-            <div className="bookImage">
-                <img src="https://www.gutenberg.org/cache/epub/84/pg84.cover.medium.jpg"/>
+  useEffect(() => {
+    document.title = "My Books";
+  });
+  return (
+    <div>
+      <center>
+        <h1>These are my Books!</h1>
+      </center>
+      <div className="bookList">
+        <div className="bookItem">
+          <div className="bookImage">
+            <img src="https://www.gutenberg.org/cache/epub/805/pg805.cover.small.jpg" />
+          </div>
+          <div className="bookContent">
+            <div className="bookTitle">This Side of Paradise</div>
+            <div className="bookAuthor">
+              by Fitzgerald, F. Scott (Francis Scott)
             </div>
-            <div className="bookContent">
-                <div className="bookTitle">This is a book title</div>
-                <div className="bookDescription">This is a Book description This is a Book description This is a Book description This is a Book description This is a Book description This is a Book description </div>
+            <div className="bookDescription">
+              These are my Books!These are my Books!These are my Books!These are
+              my Books!These are my Books!These are my Books!These are my
+              Books!These are my Books!These are my Books!{" "}
             </div>
+          </div>
         </div>
-    );
+        <div className="bookItem">
+          <div className="bookImage">
+            <img src="https://www.gutenberg.org/cache/epub/34/pg34.cover.medium.jpg" />
+          </div>
+          <div className="bookContent">
+            <div className="bookTitle">Zen and the Art of the Internet</div>
+            <div className="bookAuthor">by Kehoe, Brendan P.</div>
+            <div className="bookDescription">
+              These are my Books!These are my Books!These are my Books!These are
+              my Books!These are my Books!These are my Books!These are my
+              Books!These are my Books!These are my Books!{" "}
+            </div>
+          </div>
+        </div>
+        <div className="bookItem">
+          <div className="bookImage">
+            <img src="https://www.gutenberg.org/cache/epub/70/pg70.cover.medium.jpg" />
+          </div>
+          <div className="bookContent">
+            <div className="bookTitle">What Is Man? and Other Essays</div>
+            <div className="bookAuthor">by Twain, Mark</div>
+            <div className="bookDescription">
+              These are my Books!These are my Books!These are my Books!These are
+              my Books!These are my Books!These are my Books!These are my
+              Books!These are my Books!These are my Books!{" "}
+            </div>
+          </div>
+        </div>
+        <div className="bookItem">
+          <div className="bookImage">
+            <img src="https://www.gutenberg.org/cache/epub/606/pg606.cover.medium.jpg" />
+          </div>
+          <div className="bookContent">
+            <div className="bookTitle">
+              Indian Why Stories: Sparks from War Eagle's Lodge-Fire
+            </div>
+            <div className="bookAuthor">by Linderman, Frank Bird</div>
+            <div className="bookDescription">
+              These are my Books!These are my Books!These are my Books!These are
+              my Books!These are my Books!These are my Books!These are my
+              Books!These are my Books!These are my Books!{" "}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 export default MyBooks;
